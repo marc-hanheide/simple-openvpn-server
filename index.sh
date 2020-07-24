@@ -26,11 +26,15 @@ echo "<div class=\"panel-heading\">Connected Clients</div>"
 /home/mhanheide/.local/bin/openvpn-status-parse.py
 
 echo "</div>"
+echo "<div class=\"panel panel-default\">"
+echo "<div class=\"panel-heading\">new Wireguard VPN</div>"
+echo "<p><a target=\"_blank\" class=\"btn btn-block btn-default\" type=\"button\" href="/wg.sh">WireGuard VPN status page</a></p>"
+echo "</div>"
+
 echo "<div class=\"panel panel-danger\">"
 echo "<div class=\"panel-heading\">Admin</div>"
-
-
 echo "<p><a target=\"_blank\" class=\"btn btn-block btn-danger\" type=\"button\" href="/admin.sh">Admin Interface</a></p>"
 echo "</div></div>"
 echo "</body></html>"
+
 exit 0
