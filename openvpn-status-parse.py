@@ -28,7 +28,6 @@ for k in sorted(status.routing_table):
         city = ''
         latitude = ''
         longitude = ''
-        raise
     #image = 'https://maps.googleapis.com/maps/api/staticmap?center=%s,%s&size=100x100&zoom=5&maptype=roadmap&markers=color:green%%7C%s,%s' % (
         #latitude, longitude, latitude, longitude)
     print('<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%.3f / %.3f</td></tr>' % (
